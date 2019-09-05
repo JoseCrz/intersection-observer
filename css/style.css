@@ -1,10 +1,24 @@
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .box {
     width: 500px;
     height: 500px;
     border: 2px solid salmon;
-    margin: 5px auto;
+    margin: 5px 0;
 }
 
-.box.special {
+.special-box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid salmon;
+    background: salmon;
+    transition: 650ms all;
+}
+
+.teal {
     background: teal;
 }
