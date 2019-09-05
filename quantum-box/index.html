@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Intersection Observer</title>
+</head>
+<body>
+    <div class="boxes-container">
+        <h2>Down below, there's a box that when it is not visible has a background-color: <span class="blue-text">blue</span>, but when visible, it's color changes to <span class="red-text">red</span>.
+        In this particular example, a rootMargin is used to change the color of the box way before it becomes visible.
+        This way, it remains true to the original joke</h2>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div id="quantum-box" class="quantum-box">
+            <h2>This Box is blue when you're not looking 😉</h2>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
