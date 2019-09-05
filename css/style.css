@@ -1,0 +1,10 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid salmon;
+    margin: 5px auto;
+}
+
+.box.special {
+    background: teal;
+}
