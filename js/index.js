@@ -10,6 +10,8 @@ function callback (entries, observer) {
     console.log('callback called')
     if (entries[0].isIntersecting) {
         $specialBox.classList.add('teal')
+    } else {
+        $specialBox.classList.remove('teal')
     }
 }
 
